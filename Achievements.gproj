@@ -1,0 +1,28 @@
+<project>
+ <properties autorotation="0" encrypt="0" fps="60" scaleMode="3" mouseToTouch="1" iosDevice="0" packageName="com.yourdomain.yourapp" logicalHeight="800" logicalWidth="480" mouseTouchOrder="0" retinaDisplay="0" touchToMouse="1" assetsOnly="0" orientation="1" architecture="0">
+  <imageScales/>
+ </properties>
+ <folder name="images">
+  <file source="images/yellow.png"/>
+  <file source="images/achievements.png"/>
+  <file source="images/white.png"/>
+  <file source="images/red.png"/>
+  <file source="images/green.png"/>
+  <file source="images/blue.png"/>
+ </folder>
+ <folder name="classes">
+  <file source="classes/ScrollView.lua"/>
+  <file source="classes/gtween.lua"/>
+  <file source="classes/TextWrap.lua"/>
+  <file source="classes/json.lua"/>
+  <file source="classes/scenemanager.lua"/>
+  <file source="classes/Notifications.lua"/>
+  <file source="classes/dataSaver.lua"/>
+  <file source="classes/button.lua"/>
+  <file source="classes/Achievements.lua"/>
+ </folder>
+ <file source="start.lua"/>
+ <file source="main.lua"/>
+ <file source="achievements.lua"/>
+ <dependency from="achievements.lua" to="classes/ScrollView.lua"/>
+</project>
